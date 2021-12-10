@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css" />
+    <script
+      src="https://kit.fontawesome.com/0a6aedd8ef.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="">
+        <i class="fab fa-telegram-plane"></i>
+        <span>todolist</span>
+      </a>
+    </header>
+
+    <!-- section -->
+    <section>
+      <div class="input__line">
+        <input id="input__plan" type="text" value="할일을 입력하세요." />
+        <button onclick="addPlan();">plus</button>
+      </div>
+      <ul id="plan__section" class="plan__section"></ul>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <span>todolist</span>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
